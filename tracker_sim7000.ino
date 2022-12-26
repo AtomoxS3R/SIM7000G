@@ -10,7 +10,7 @@ const char gprsUser[] = "";
 const char gprsPass[] = "";
 
 #define GSM_PIN "2336"
-#define SMS_TARGET  "+34756610040"
+#define SMS_TARGET  "+34756610045"
 
 #include <TinyGPS.h>
 #include <TinyGsmClient.h>
@@ -42,7 +42,7 @@ TinyGsm modem(SerialAT);
 #define SD_CS               13
 #define LED_PIN             12
 
-const String PHONE = "+34656610045";
+const String PHONE = "+34756610045";
 
 int gnss_run_status = 0;
 int fix_status = 0;
